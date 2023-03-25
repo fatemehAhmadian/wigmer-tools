@@ -1,0 +1,26 @@
+.siteHeader
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.profile
+{
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.5rem;
+    font-size: .7rem;
+}

@@ -1,0 +1,94 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+
+.subscriptions
+{
+    display: none;
+
+}
+
+
+// bigger than tablet = labtop
+@media screen and (min-width : 1024px)
+{
+    .subscriptions
+    {
+        background: linear-gradient(to bottom left, #46308e, black);
+        margin: 0 2rem 1rem 1rem;
+        border-radius: 10px;
+        display: inline-block;
+        flex-direction: column;
+        padding: 1.1rem;
+        font-family: sans-serif !important;
+        cursor: pointer;
+
+        .btn
+        {
+            background-color: #a09272;
+            box-shadow: 0 0 0 .07rem #f3ebd8;
+            font-weight: 200;
+            font-size: .75rem;
+            padding: .3rem .3rem;
+            border-radius: 7px;
+            display: inline-block !important;
+            text-align: center;
+        }
+
+        h1
+        {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: .5rem 0;
+        }
+
+        .left-day
+        {
+            font-size: 1.3rem;
+            color: #e6e34a;
+        }
+
+        .warning-box
+        {
+            background-color: rgba(149, 26, 76, .6);
+            border-radius: 5px;
+            padding: .2rem;
+            position: relative;
+
+            p
+            {
+                font-size: .8rem;
+            }
+
+            #day-left-num
+            {
+                padding-right: .2rem;
+                font-size: 1.3rem;
+            }
+        }
+
+        &:hover .warning-box
+        {
+            animation: warningbox .5s linear infinite alternate;
+
+        }
+
+        @keyframes warningbox
+        {
+            from
+            {
+                left: -.5rem;
+            }
+
+            to
+            {
+                left: .5rem;
+            }
+
+
+        }
+    }
+}

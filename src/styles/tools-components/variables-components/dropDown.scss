@@ -1,0 +1,154 @@
+.dropDown
+{
+    position: relative;
+    width: 100%;
+    margin-top: .5rem;
+    margin: 1.5rem .5rem 0;
+
+
+    font-family: sans-serif !important;
+
+    .title
+    {
+        color: #929292;
+        text-transform: uppercase;
+        font-family: sans-serif !important;
+        font-size: .75rem;
+        font-weight: 500;
+        margin-bottom: .5rem;
+        position: relative;
+        left: -.2rem;
+    }
+
+    .dropDown-box
+    {
+        height: 45px;
+        width: 100%;
+
+        .dropDown-btn
+        {
+            height: 100%;
+            background-color: #181818;
+            border: var(--border-elements);
+            color: white;
+            line-height: 50px;
+            padding: 0 20px;
+            border-radius: 10px;
+            font-weight: 500;
+            font-size: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            span
+            {
+                font-weight: 28px;
+                transition: .1s;
+            }
+
+            .rotate
+            {
+                transform: rotate(180deg);
+            }
+        }
+
+        .show
+        {
+            display: flex !important;
+        }
+
+        .wrapper
+        {
+            position: absolute;
+            top: 70px;
+            display: flex;
+            width: 100%;
+            background-color: #181818;
+            box-shadow: 0 0 0 .05rem rgba(255, 255, 255, .1);
+            max-height: 300px;
+            border-radius: 10px;
+            display: none;
+
+            z-index: 10;
+
+            overflow-y: scroll;
+            overflow-x: hidden;
+
+
+            &::-webkit-scrollbar
+            {
+                width: 12px;
+                border-radius: 10px;
+
+            }
+
+            &::-webkit-scrollbar-thumb
+            {
+                border-radius: 50px;
+                background-color: #202020;
+
+                border: 3px solid transparent;
+                background-clip: content-box;
+
+            }
+
+            &::-webkit-scrollbar-thumb:hover
+            {
+                border-radius: 5px;
+                background-color: #a36ef7;
+
+            }
+
+
+            .menu
+            {
+                width: 100%;
+
+                li
+                {
+                    width: 100%;
+                    padding: .6rem 1rem;
+                    margin: .1rem 0;
+
+                    font-size: 1rem;
+                    cursor: pointer;
+                    transition: all .2s;
+
+                    &:first-child
+                    {
+                        border-radius: 10px 10px 0 0;
+                    }
+
+                    &:last-child
+                    {
+                        border-radius: 0 0 10px 10px;
+                    }
+
+                    &:hover
+                    {
+                        background-color: rgb(14, 14, 14);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width : 990px)
+{
+    .dropDown
+    {
+        width: 22% !important;
+
+    }
+}
+
+@media screen and (min-width : 1400px)
+{
+    .min-dropDown
+    {
+        width: 22% !important;
+
+    }
+}

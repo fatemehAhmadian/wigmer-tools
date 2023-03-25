@@ -1,0 +1,78 @@
+.textInput
+{
+    position: relative;
+    width: 100%;
+    margin: 1.5rem .5rem 0;
+
+    .title
+    {
+        color: #929292;
+        text-transform: uppercase;
+        font-family: sans-serif !important;
+        font-size: .75rem;
+        font-weight: 500;
+        margin-bottom: .5rem;
+        position: relative;
+        left: -.2rem;
+    }
+
+
+    .textInput-box
+    {
+        width: 100%;
+
+        font-family: sans-serif;
+        border-radius: 8px;
+        background-color: #181818;
+        border: var(--border-elements);
+
+
+        input
+        {
+            appearance: none;
+            background: transparent;
+            border: none;
+            border-radius: 8px;
+            height: 45px;
+            width: 100%;
+            outline: none;
+            color: #e4e8ee;
+            font-size: 1rem;
+            padding: .5rem 1rem;
+
+            &::selection
+            {
+                background-color: #333333;
+            }
+
+            &:focus
+            {
+                background-color: #25242e;
+                border: 2px solid #6c63ff;
+            }
+        }
+
+    }
+
+
+
+
+}
+
+@media screen and (min-width : 990px)
+{
+    .textInput
+    {
+        width: 22% !important;
+
+
+    }
+}
+
+@media screen and (min-width : 1400px)
+{
+    .textInput
+    {
+        width: 22% !important;
+    }
+}

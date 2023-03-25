@@ -1,0 +1,24 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+:root
+{
+    --border-elements: 1px solid rgb(231, 231, 231, 0.1);
+    --color-value : #e4e8ee;
+}
+
+.App
+{
+    background-color: #181818;
+    min-height: 100vh;
+    height: auto;
+    color: white;
+    overflow: hidden;
+    display: flex;
+
+}

@@ -1,0 +1,28 @@
+.donationGoal
+{
+    background-color: #6e10d8;
+    color: #fdfafe;
+    border: 6px solid #2b2b2b;
+    box-shadow: 0 0 0 .5px rgba(253, 250, 254, .3);
+    padding: 1.2rem 1rem;
+    display: flex;
+    font-family: sans-serif !important;
+    align-items: center;
+    border-radius: 20px;
+    width: 175px;
+
+
+    .icon
+    {
+        padding-right: .5rem;
+        text-decoration: none;
+        color: #fdfafe;
+    }
+
+    p
+    {
+        font-size: 1rem;
+        text-decoration: none;
+        color: #fdfafe;
+    }
+}

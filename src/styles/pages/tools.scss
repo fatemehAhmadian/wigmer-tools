@@ -1,0 +1,103 @@
+.tools
+{
+    background-color: #181818;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    scroll-margin: 10px;
+
+
+    &::-webkit-scrollbar
+    {
+        width: 12px;
+        border-radius: 10px;
+
+    }
+
+    &::-webkit-scrollbar-thumb
+    {
+        border-radius: 50px;
+        background-color: #202020;
+
+        border: 3px solid transparent;
+        background-clip: content-box;
+
+    }
+
+    &::-webkit-scrollbar-thumb:hover
+    {
+        border-radius: 5px;
+        background-color: #a36ef7;
+
+    }
+
+
+    // background-color: red;
+
+
+
+    .content
+    {
+
+        width: 100%;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        // height: 100%;
+        margin: 5rem 1rem 1rem;
+
+        .donationBtn
+        {
+            margin: 0 0 1rem 0.1rem;
+        }
+
+        .workspace
+        {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+    }
+
+}
+
+@media screen and (min-width : 990px)
+{
+    .tools
+    {
+        .content
+        {
+            margin: 0 2rem;
+            margin-right: 3rem;
+
+        }
+    }
+}
+
+@media screen and (min-width : 1400px)
+{
+    .tools
+    {
+        display: flex;
+
+        .content
+        {
+            width: 100%;
+
+            margin-left: 1rem;
+            margin-right: 1.5rem ;
+
+            .workspace
+            {
+                flex-direction: row !important;
+
+
+            }
+
+        }
+    }
+}

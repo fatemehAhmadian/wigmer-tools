@@ -1,0 +1,90 @@
+.colorPicker
+{
+    position: relative;
+    width: 100%;
+    margin: 1.5rem .5rem 0;
+
+    .title
+    {
+        color: #929292;
+        text-transform: uppercase;
+        font-family: sans-serif !important;
+        font-size: .72rem;
+        font-weight: 500;
+        margin-bottom: .5rem;
+        position: relative;
+        left: -.2rem;
+    }
+
+    .colorPicker-box
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: .2rem .2rem .2rem .8rem;
+        height: 45px;
+        border-radius: 8px;
+        background-color: #181818;
+        border: var(--border-elements);
+
+        input
+        {
+            appearance: none;
+            background: transparent;
+            border: none;
+            height: 40px;
+            width: 38px;
+            cursor: pointer;
+        }
+
+        // chrome
+        input::-webkit-color-swatch
+        {
+            border-radius: 5px;
+            border: none;
+        }
+
+        // firefox
+        input::-moz-color-swatch
+        {
+            border-radius: 5px;
+            border: none;
+        }
+
+        #text-color
+        {
+            width: 95%;
+            font-family: sans-serif !important;
+            text-transform: lowercase;
+        }
+
+    }
+}
+
+@media screen and (min-width : 990px)
+{
+    .colorPicker
+    {
+        width: 22% !important;
+
+
+        #text-color
+        {
+            width: 75% !important;
+        }
+    }
+}
+
+@media screen and (min-width : 1400px)
+{
+    .colorPicker
+    {
+        width: 22% !important;
+
+
+        #text-color
+        {
+            width: 75% !important;
+        }
+    }
+}
