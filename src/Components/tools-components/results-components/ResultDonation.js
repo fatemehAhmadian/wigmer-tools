@@ -4,12 +4,12 @@ import { useContext, useEffect, useState } from 'react'
 import Alert from '../../basic-components/Alert'
 
 // import Context
-import ToolsContext from '../../../Context/Tools'
+import DonationContext from '../../../Context/donation'
 
 export default function ResultDonation({ url }) {
     const [save, setSave] = useState(false)
 
-    const toolsContext = useContext(ToolsContext)
+    const donationContext = useContext(DonationContext)
 
     let saveHandler = (e) => {
         setSave(true)
@@ -20,7 +20,7 @@ export default function ResultDonation({ url }) {
         resultContent.style.backgroundColor = e.target.value
     }
 
-    const target = toolsContext.state.target
+    const target = donationContext.state.target
 
     useEffect(() => {
         let finalResult = document.querySelector('#final-result')

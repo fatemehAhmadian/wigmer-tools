@@ -5,20 +5,22 @@ import './../../../../styles/tools-components/variables-components/sections/Mana
 import TextInput from '../TextInput'
 // import { useContext } from 'react'
 
-import ToolsContext from '../../../../Context/Tools'
+import DonationContext from '../../../../Context/donation'
 import { useContext } from 'react'
 
 export default function ManageSection() {
 
-    const toolsContext = useContext(ToolsContext)
-    const target = toolsContext.state.target
+    const donationContext = useContext(DonationContext)
+    const target = donationContext.state.target
+
+    console.log('manage target : ', target)
 
     return (
         <div className="manage">
             <div className="title">
                 <h1>MANAGE</h1>
-
             </div>
+            
             <div className="container">
                 <TextInput
                     inputId='text'

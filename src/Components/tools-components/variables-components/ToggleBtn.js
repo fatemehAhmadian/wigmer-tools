@@ -3,7 +3,7 @@ import { useContext, useState } from 'react'
 import propTypes from 'prop-types'
 import './../../../styles/tools-components/variables-components/toggleBtn.scss'
 
-import ToolsContext from '../../../Context/Tools'
+import ToolsContext from '../../../Context/donation'
 
 function ToggleBtn({ id, title, text, type, value }) {
 
@@ -21,7 +21,7 @@ function ToggleBtn({ id, title, text, type, value }) {
                 <div className="title">{title}</div>
                 <div className="container">
                     <h4>{text}</h4>
-                    <input className="tgl tgl-ios" id={id} type="checkbox" onChange={inputHandler} checked={toggle}/>
+                    <input className="tgl tgl-ios" id={id} type="checkbox" onChange={inputHandler} checked={toggle} />
                     <label className="tgl-btn" htmlFor={id}></label>
                 </div>
             </div>

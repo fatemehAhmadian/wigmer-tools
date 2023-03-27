@@ -1,5 +1,5 @@
 
-function ToolsReducer(state, action) {
+function DonationReducer(state, action) {
 
     switch (action.type) {
         case 'update-text':
@@ -242,4 +242,4 @@ function ToolsReducer(state, action) {
 
 }
 
-export default ToolsReducer
+export default DonationReducer

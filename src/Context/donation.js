@@ -1,6 +1,6 @@
 import React from "react";
 
-const ToolsContext = React.createContext({
+const DonationContext = React.createContext({
     text: String,
     setText: () => { },
     goul: Number,
@@ -11,4 +11,4 @@ const ToolsContext = React.createContext({
     state : {}
 })
 
-export default ToolsContext
+export default DonationContext

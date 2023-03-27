@@ -5,7 +5,7 @@ import './../../../styles/tools-components/variables-components/textInput.scss'
 
 import { useContext, useState } from 'react'
 
-import ToolsContext from '../../../Context/Tools'
+import ToolsContext from '../../../Context/donation'
 
 export default function TextInput({ inputId, title, value, type }) {
 

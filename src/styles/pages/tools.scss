@@ -1,73 +1,55 @@
 .tools
 {
+    display: flex;
+    width: 100%;
     background-color: #181818;
     display: flex;
     width: 100%;
     height: 100vh;
 
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
 
     scroll-margin: 10px;
 
-
-    &::-webkit-scrollbar
-    {
-        width: 12px;
-        border-radius: 10px;
-
-    }
-
-    &::-webkit-scrollbar-thumb
-    {
-        border-radius: 50px;
-        background-color: #202020;
-
-        border: 3px solid transparent;
-        background-clip: content-box;
-
-    }
-
-    &::-webkit-scrollbar-thumb:hover
-    {
-        border-radius: 5px;
-        background-color: #a36ef7;
-
-    }
-
-
-    // background-color: red;
-
-
-
     .content
     {
-
+        margin-top: 6rem;
+        color: white;
         width: 100%;
-        padding-top: 2rem;
-        display: flex;
-        flex-direction: column;
-        // height: 100%;
-        margin: 5rem 1rem 1rem;
 
-        .donationBtn
-        {
-            margin: 0 0 1rem 0.1rem;
-        }
+        display: grid;
+        grid-template-columns: auto auto;
 
-        .workspace
+
+        a
         {
+            background: linear-gradient(to top right, #202020, #181818, #202020);
+            border: var(--border-elements);
+            width: 80%;
+            margin: auto;
+            height: 80%;
+            border-radius: 20px;
+            padding: 2rem;
+            color: white;
+            text-decoration: none;
+            align-items: center;
+            justify-content: center;
             display: flex;
-            flex-direction: column-reverse;
+            font-size: 2rem;
+
+            &:hover
+            {
+                background: linear-gradient(to top right, #20054c, #6710f1, #20054c);
+            }
         }
 
     }
-
 }
+
 
 @media screen and (min-width : 990px)
 {
-    .tools
+    .donation
     {
         .content
         {
@@ -80,7 +62,7 @@
 
 @media screen and (min-width : 1400px)
 {
-    .tools
+    .donation
     {
         display: flex;
 
@@ -89,7 +71,7 @@
             width: 100%;
 
             margin-left: 1rem;
-            margin-right: 1.5rem ;
+            margin-right: 1.5rem;
 
             .workspace
             {

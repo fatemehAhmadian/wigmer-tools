@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 
 import './../../../styles/tools-components/variables-components/rangeBar.scss'
 
-import ToolsContext from "../../../Context/Tools"
+import ToolsContext from "../../../Context/donation"
 
 
 export default function RangeBar({ rangeId, title, max, type, value }) {
@@ -55,10 +55,10 @@ export default function RangeBar({ rangeId, title, max, type, value }) {
 
         // move value
         e.target.nextSibling.children[0].children[0].style.left = `${valPercent}%`
-    
+
         console.log(val)
-        toolsContext.dispatch({type, payload : {value : val}})
-    
+        toolsContext.dispatch({ type, payload: { value: val } })
+
     }
 
     return (

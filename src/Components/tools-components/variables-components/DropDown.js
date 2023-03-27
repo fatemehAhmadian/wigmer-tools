@@ -3,7 +3,7 @@ import propTypes from 'prop-types'
 
 import './../../../styles/tools-components/variables-components/dropDown.scss'
 
-import ToolsContext from "../../../Context/Tools"
+import ToolsContext from "../../../Context/donation"
 
 function DropDown({ title, items, type, value }) {
     const [dropDownValue, setDropDownValue] = useState(value)
@@ -34,7 +34,7 @@ function DropDown({ title, items, type, value }) {
         e.target.parentNode.parentNode.classList.remove('show')
         e.target.parentNode.parentNode.parentNode.children[0].children[1].classList.toggle('rotate')
 
-        toolsContext.dispatch({type, payload : {style : e.target.innerHTML}})
+        toolsContext.dispatch({ type, payload: { style: e.target.innerHTML } })
     }
     return (
         <>

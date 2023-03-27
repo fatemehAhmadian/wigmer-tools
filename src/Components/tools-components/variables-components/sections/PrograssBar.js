@@ -7,13 +7,13 @@ import DropDown from '../DropDown'
 import RangeBar from '../RangeBar'
 import ColorPicker from '../ColorPicker'
 
-import ToolsContext from '../../../../Context/Tools'
+import DonationContext from '../../../../Context/donation'
 import { useContext } from 'react'
 
 export default function TitleDetails() {
 
-    const toolsContext = useContext(ToolsContext)
-    const target = toolsContext.state.target
+    const donationContext = useContext(DonationContext)
+    const target = donationContext.state.target
 
     return (
         <div className="manage">

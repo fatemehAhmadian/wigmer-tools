@@ -56,7 +56,7 @@ function Sidebar() {
                                 <ul className='sidebar-menu'>
                                     <li className='sidebar-item'>
                                         <i className="fa fa-th-large" aria-hidden="true"></i>
-                                        <Link>Dashboard</Link>
+                                        <Link to={'/dashboard'}>Dashboard</Link>
                                     </li>
                                     <li className='sidebar-item'>
                                         <i className="fas fa-file-invoice-dollar" dir=""></i>
