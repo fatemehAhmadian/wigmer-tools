@@ -1,0 +1,447 @@
+// ----------------------------- MuseoModerno
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-Thin.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-Thin.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-Thin.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-Thin.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-Thin.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-ExtraLight.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-ExtraLight.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-ExtraLight.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-ExtraLight.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-ExtraLight.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-Light.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-Light.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-Light.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-Light.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-Regular.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-Regular.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-Regular.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-Regular.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-Medium.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-Medium.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-Medium.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-Medium.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-SemiBold.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-SemiBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-SemiBold.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-SemiBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-Bold.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-Bold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-Bold.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-Bold.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-ExtraBold.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-ExtraBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-ExtraBold.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-ExtraBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face
+{
+	font-family: 'MuseoModerno';
+	src: url('./../../assets/fonts/En/MuseoModerno/eot/MuseoModerno-Black.eot');
+	src: url('./../../assets/fonts/En/MuseoModerno/woff2/MuseoModerno-Black.woff2') format('woff2'),
+		url('./../../assets/fonts/En/MuseoModerno/woff/MuseoModerno-Black.woff') format('woff'),
+		url('./../../assets/fonts/En/MuseoModerno/otf/MuseoModerno-Black.otf') format('opentype'),
+		url('./../../assets/fonts/En/MuseoModerno/ttf/MuseoModerno-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 900;
+}
+
+// ----------------------------- Faustina
+
+@font-face
+{
+	font-family: 'Faustina';
+	src: url('./../../assets/fonts/En/Faustina/eot/Faustina-Light.eot');
+	src: url('./../../assets/fonts/En/Faustina/woff2/Faustina-Light.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Faustina/woff/Faustina-Light.woff') format('woff'),
+		url('./../../assets/fonts/En/Faustina/otf/Faustina-Light.otf') format('opentype'),
+		url('./../../assets/fonts/En/Faustina/ttf/Faustina-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Faustina';
+	src: url('./../../assets/fonts/En/Faustina/eot/Faustina-Regular.eot');
+	src: url('./../../assets/fonts/En/Faustina/woff2/Faustina-Regular.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Faustina/woff/Faustina-Regular.woff') format('woff'),
+		url('./../../assets/fonts/En/Faustina/otf/Faustina-Regular.otf') format('opentype'),
+		url('./../../assets/fonts/En/Faustina/ttf/Faustina-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family: 'Faustina';
+	src: url('./../../assets/fonts/En/Faustina/eot/Faustina-Medium.eot');
+	src: url('./../../assets/fonts/En/Faustina/woff2/Faustina-Medium.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Faustina/woff/Faustina-Medium.woff') format('woff'),
+		url('./../../assets/fonts/En/Faustina/otf/Faustina-Medium.otf') format('opentype'),
+		url('./../../assets/fonts/En/Faustina/ttf/Faustina-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+
+
+@font-face
+{
+	font-family: 'Faustina';
+	src: url('./../../assets/fonts/En/Faustina/eot/Faustina-SemiBold.eot');
+	src: url('./../../assets/fonts/En/Faustina/woff2/Faustina-SemiBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Faustina/woff/Faustina-SemiBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Faustina/otf/Faustina-SemiBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Faustina/ttf/Faustina-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face
+{
+	font-family: 'Faustina';
+	src: url('./../../assets/fonts/En/Faustina/eot/Faustina-Bold.eot');
+	src: url('./../../assets/fonts/En/Faustina/woff2/Faustina-Bold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Faustina/woff/Faustina-Bold.woff') format('woff'),
+		url('./../../assets/fonts/En/Faustina/otf/Faustina-Bold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Faustina/ttf/Faustina-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face
+{
+	font-family: 'Faustina';
+	src: url('./../../assets/fonts/En/Faustina/eot/Faustina-ExtraBold.eot');
+	src: url('./../../assets/fonts/En/Faustina/woff2/Faustina-ExtraBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Faustina/woff/Faustina-ExtraBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Faustina/otf/Faustina-ExtraBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Faustina/ttf/Faustina-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}
+
+// ----------------------------- Grenze
+
+@font-face
+{
+	font-family: 'Grenze';
+	src: url('./../../assets/fonts/En/Grenze/eot/Grenze-Light.eot');
+	src: url('./../../assets/fonts/En/Grenze/woff2/Grenze-Light.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze/woff/Grenze-Light.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze/otf/Grenze-Light.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze/ttf/Grenze-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Grenze';
+	src: url('./../../assets/fonts/En/Grenze/eot/Grenze-Regular.eot');
+	src: url('./../../assets/fonts/En/Grenze/woff2/Grenze-Regular.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze/woff/Grenze-Regular.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze/otf/Grenze-Regular.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze/ttf/Grenze-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family: 'Grenze';
+	src: url('./../../assets/fonts/En/Grenze/eot/Grenze-Medium.eot');
+	src: url('./../../assets/fonts/En/Grenze/woff2/Grenze-Medium.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze/woff/Grenze-Medium.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze/otf/Grenze-Medium.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze/ttf/Grenze-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+
+
+@font-face
+{
+	font-family: 'Grenze';
+	src: url('./../../assets/fonts/En/Grenze/eot/Grenze-SemiBold.eot');
+	src: url('./../../assets/fonts/En/Grenze/woff2/Grenze-SemiBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze/woff/Grenze-SemiBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze/otf/Grenze-SemiBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze/ttf/Grenze-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face
+{
+	font-family: 'Grenze';
+	src: url('./../../assets/fonts/En/Grenze/eot/Grenze-Bold.eot');
+	src: url('./../../assets/fonts/En/Grenze/woff2/Grenze-Bold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze/woff/Grenze-Bold.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze/otf/Grenze-Bold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze/ttf/Grenze-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face
+{
+	font-family: 'Grenze';
+	src: url('./../../assets/fonts/En/Grenze/eot/Grenze-ExtraBold.eot');
+	src: url('./../../assets/fonts/En/Grenze/woff2/Grenze-ExtraBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze/woff/Grenze-ExtraBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze/otf/Grenze-ExtraBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze/ttf/Grenze-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}
+
+// ----------------------------- MuseoModerno
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-ExtraLight.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-ExtraLight.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-ExtraLight.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-ExtraLight.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-ExtraLight.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-Light.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-Light.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-Light.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-Light.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-Thin.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-Thin.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-Thin.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-Thin.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-Thin.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-Regular.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-Regular.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-Regular.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-Regular.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-Medium.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-Medium.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-Medium.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-Medium.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-SemiBold.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-SemiBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-SemiBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-SemiBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-Bold.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-Bold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-Bold.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-Bold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-ExtraBold.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-ExtraBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-ExtraBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-ExtraBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}
+@font-face
+{
+	font-family: 'GrenzeGotisch';
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/eot/GrenzeGotisch-Black.eot');
+	src: url('./../../assets/fonts/En/Grenze-Gotisch/woff2/GrenzeGotisch-Black.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/woff/GrenzeGotisch-Black.woff') format('woff'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/otf/GrenzeGotisch-Black.otf') format('opentype'),
+		url('./../../assets/fonts/En/Grenze-Gotisch/ttf/GrenzeGotisch-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 900;
+}
+
+// ----------------------------- Manuale
+
+@font-face
+{
+	font-family: 'Manuale';
+	src: url('./../../assets/fonts/En/Manuale/eot/Manuale-Light.eot');
+	src: url('./../../assets/fonts/En/Manuale/woff2/Manuale-Light.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Manuale/woff/Manuale-Light.woff') format('woff'),
+		url('./../../assets/fonts/En/Manuale/otf/Manuale-Light.otf') format('opentype'),
+		url('./../../assets/fonts/En/Manuale/ttf/Manuale-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Manuale';
+	src: url('./../../assets/fonts/En/Manuale/eot/Manuale-Regular.eot');
+	src: url('./../../assets/fonts/En/Manuale/woff2/Manuale-Regular.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Manuale/woff/Manuale-Regular.woff') format('woff'),
+		url('./../../assets/fonts/En/Manuale/otf/Manuale-Regular.otf') format('opentype'),
+		url('./../../assets/fonts/En/Manuale/ttf/Manuale-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face
+{
+	font-family: 'Manuale';
+	src: url('./../../assets/fonts/En/Manuale/eot/Manuale-Medium.eot');
+	src: url('./../../assets/fonts/En/Manuale/woff2/Manuale-Medium.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Manuale/woff/Manuale-Medium.woff') format('woff'),
+		url('./../../assets/fonts/En/Manuale/otf/Manuale-Medium.otf') format('opentype'),
+		url('./../../assets/fonts/En/Manuale/ttf/Manuale-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+}
+
+
+
+@font-face
+{
+	font-family: 'Manuale';
+	src: url('./../../assets/fonts/En/Manuale/eot/Manuale-Semibold.eot');
+	src: url('./../../assets/fonts/En/Manuale/woff2/Manuale-Semibold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Manuale/woff/Manuale-Semibold.woff') format('woff'),
+		url('./../../assets/fonts/En/Manuale/otf/Manuale-Semibold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Manuale/ttf/Manuale-Semibold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face
+{
+	font-family: 'Manuale';
+	src: url('./../../assets/fonts/En/Manuale/eot/Manuale-Bold.eot');
+	src: url('./../../assets/fonts/En/Manuale/woff2/Manuale-Bold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Manuale/woff/Manuale-Bold.woff') format('woff'),
+		url('./../../assets/fonts/En/Manuale/otf/Manuale-Bold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Manuale/ttf/Manuale-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face
+{
+	font-family: 'Manuale';
+	src: url('./../../assets/fonts/En/Manuale/eot/Manuale-ExtraBold.eot');
+	src: url('./../../assets/fonts/En/Manuale/woff2/Manuale-ExtraBold.woff2') format('woff2'),
+		url('./../../assets/fonts/En/Manuale/woff/Manuale-ExtraBold.woff') format('woff'),
+		url('./../../assets/fonts/En/Manuale/otf/Manuale-ExtraBold.otf') format('opentype'),
+		url('./../../assets/fonts/En/Manuale/ttf/Manuale-ExtraBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 800;
+}

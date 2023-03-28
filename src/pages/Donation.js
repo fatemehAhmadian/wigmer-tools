@@ -35,7 +35,7 @@ export default function Donation() {
 
             showTitle: true,
             showTitleShadow: false,
-            titleFontFamily: 'CoCo',
+            titleFontFamily: 'sans-serif',
             titleFontStyle: 'Lighter',
             titleFontSize: 30,
             titleColor: '#ffffff',
@@ -51,7 +51,7 @@ export default function Donation() {
             showTitleDetails: true,
             showTitleDetailsShadow: false,
             detailsColor: '#ffffff',
-            detailsFontFamily: 'IranSans',
+            detailsFontFamily: 'sans-serif',
             detailsFontStyle: 'Bolder',
             detailsFontSize: 20
         }

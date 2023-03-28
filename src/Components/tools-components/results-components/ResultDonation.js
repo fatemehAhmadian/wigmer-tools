@@ -43,7 +43,6 @@ export default function ResultDonation({ url }) {
         console.log(target.titleFontStyle)
         if (target.titleFontStyle === 'Lighter') finalResultTitle.style.fontWeight = '100'
         else finalResultTitle.style.fontWeight = '600'
-        finalResultTitle.style.fontWeight = target.titleFontStyle
         finalResultTitle.style.fontSize = `${target.titleFontSize}px`
         finalResultTitle.style.color = target.titleColor
 

@@ -1,5 +1,5 @@
 
-
+// import styles
 import './../../../../styles/tools-components/variables-components/sections/ManageSection.scss'
 
 import ToggleBtn from '../ToggleBtn'
@@ -45,7 +45,7 @@ export default function TitleDetails() {
                 />
                 <DropDown
                     title='font family'
-                    items={['sans-serif', 'Aviano', 'Anjoman', 'chiselBold', 'CoCo', 'CommerCial', 'Cushy', 'Dana', 'Freytag', 'IranSancs', 'NormalWH', 'PulbicSans', 'Tanha', 'Vazir']}
+                    items={['sans-serif', 'MuseoModerno', 'Faustina', 'Grenze', 'GrenzeGotisch', 'Manuale', 'A-Duel', 'A-Massir', 'Vazir']}
                     type={'update-detailsFamily'}
                     value={target.detailsFontFamily}
                 />

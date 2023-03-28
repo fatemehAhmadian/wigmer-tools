@@ -1,8 +1,9 @@
 
 
 import './../../../../styles/tools-components/variables-components/sections/ManageSection.scss'
+import './../../../../styles/fonts/En-font-face.scss'
+import './../../../../styles/fonts/Fa-font-face.scss'
 
-import TextInput from '../TextInput'
 import ToggleBtn from '../ToggleBtn'
 import DropDown from '../DropDown'
 import RangeBar from '../RangeBar'
@@ -38,7 +39,7 @@ export default function TitleTargets() {
                 />
                 <DropDown
                     title='font family'
-                    items={['sans-serif', 'Aviano', 'Anjoman', 'chiselBold', 'CoCo', 'CommerCial', 'Cushy', 'Dana', 'Freytag', 'IranSancs', 'NormalWH', 'PulbicSans', 'Tanha', 'Vazir']}
+                    items={['sans-serif', 'MuseoModerno', 'Faustina', 'Grenze', 'GrenzeGotisch', 'Manuale', 'A-Duel', 'A-Massir', 'Vazir']}
                     type={'update-titleFamily'}
                     value={target.titleFontFamily}
                 />
