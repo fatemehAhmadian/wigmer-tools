@@ -3,12 +3,20 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    // justify-content: flex-end;
+    justify-content: center;
     height: 100px;
 
     position: absolute;
     top: 0;
     right: 0;
+    background-color: pink;
+
+    h1
+    {
+        margin: 0;
+        color: #202020;
+    }
 }
 
 .profile
@@ -23,4 +31,25 @@
     justify-content: center;
     margin-right: 3.5rem;
     font-size: .7rem;
+}
+
+
+// bigger than tablet = labtop
+@media screen and (min-width : 990px)
+{
+    .siteHeader
+    {
+        width: calc(100% - 320px) !important;
+    }
+
+}
+
+@media screen and (min-width : 1400px)
+{
+    .siteHeader
+    {
+        width: calc(100% - 320px) !important;
+        font-family: 'A-Duel';
+        font-size: 2rem;
+    }
 }

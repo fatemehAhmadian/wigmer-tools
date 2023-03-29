@@ -1,17 +1,17 @@
 import './../../styles/layout/siteHeader.scss'
 
-function SiteHeader()
-{
+function SiteHeader() {
 
 
     return (
         <>
-        <div className="siteHeader">
+            <div className="siteHeader">
 
-            {/* <div className="profile">
+                {/* <div className="profile">
                 <p>profile</p>
             </div> */}
-        </div>
+                <h1>header</h1>
+            </div>
         </>
 
     )
